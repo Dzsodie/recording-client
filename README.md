@@ -1,19 +1,25 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)
+![Vue 3](https://img.shields.io/badge/Vue-3-green.svg)
+![Vite](https://img.shields.io/badge/Vite-Fast%20Build-blue.svg)
+![WebSocket](https://img.shields.io/badge/WebSocket-Real%20Time-red.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-
-## Recording Client
+# Recording Client
 ## Introduction
 This project is a frontend client in JavaScript with Vue 3 in Vite to fetch and save recording data to and from a mock database.
 ## Purpose
 This project is a demo for the Zetoinc interview process, it's main purpose is to showcase the ability to develop a fullstack application.
+## Technologies Used
+- **JavaScript (ES6+)** - Core language
+- **Vue 3** - Frontend framework
+- **Vite** - Build tool for fast development
+- **WebSockets** - Real-time data synchronization with backend
+- **Bootstrap (Optional)** - For styling
+- **ESLint & Prettier** - Code linting and formatting
 ## Features
-- 
+- displays a list of recordings.
+- enables real-time data manipulation for recordings with the status `RECORDED`.
+- communicates real-time with backend service.
 ## Project structure
     ```shell
     src/
