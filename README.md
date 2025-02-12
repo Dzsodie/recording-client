@@ -63,5 +63,17 @@ This project is a demo for the Zetoinc interview process, it's main purpose is t
 - The recording list displays correctly.
 - "Recorded" recordings have editable fields.
 - "Scheduled" and "Reported" recordings are read-only.
+## Unit tests
+1. For unit tests the vitest framework is used.
+2. Run tests with this command.
+    ```shell
+    npm run test:unit
+    ```
+## E2E tests
+1. For E2E tests cypress is used.
+2. Run cypress with this command.
+    ```shell
+    npx cypress run 
+    ```
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
