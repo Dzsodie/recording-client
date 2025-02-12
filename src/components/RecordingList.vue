@@ -40,6 +40,7 @@ export default {
         console.log("WebSocket message received:", event.data);
         try {
           this.recordings = JSON.parse(event.data);
+          this.recordings = [...parsedData]; 
           this.loading = false;
         } catch (error) {
           console.error("Error parsing WebSocket data:", error);
